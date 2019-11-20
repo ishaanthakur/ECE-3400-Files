@@ -1,0 +1,78 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ECE3400:+5V #PWR?
+U 1 1 5D81248B
+P 5600 3800
+F 0 "#PWR?" H 5600 3650 50  0001 C CNN
+F 1 "+5V" H 5615 3973 50  0000 C CNN
+F 2 "" H 5600 3800 50  0001 C CNN
+F 3 "" H 5600 3800 50  0001 C CNN
+	1    5600 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L ECE3400:R_TRIM RV?
+U 1 1 5D8124FA
+P 5600 4000
+F 0 "RV?" H 5532 4046 50  0000 R CNN
+F 1 "10k" H 5532 3955 50  0000 R CNN
+F 2 "" H 5600 4000 50  0001 C CNN
+F 3 "" H 5600 4000 50  0001 C CNN
+	1    5600 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L ECE3400:GND #PWR?
+U 1 1 5D812618
+P 5600 4200
+F 0 "#PWR?" H 5600 3950 50  0001 C CNN
+F 1 "GND" H 5605 4027 50  0000 C CNN
+F 2 "" H 5600 4200 50  0001 C CNN
+F 3 "" H 5600 4200 50  0001 C CNN
+	1    5600 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 3800 5600 3850
+Wire Wire Line
+	5600 4150 5600 4200
+$Comp
+L ECE3400:R R?
+U 1 1 5D812738
+P 5950 4000
+F 0 "R?" V 5850 4000 50  0000 C CNN
+F 1 "300R" V 5950 4000 50  0000 C CNN
+F 2 "" V 5880 4000 50  0001 C CNN
+F 3 "" H 5950 4000 50  0001 C CNN
+	1    5950 4000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5750 4000 5800 4000
+Wire Wire Line
+	6100 4000 6200 4000
+Text Label 6200 4000 2    50   ~ 0
+A0
+Text Notes 7350 7500 0    50   ~ 0
+The Serial Monitor and the Analog Pins
+Text Notes 7050 6950 0    100  ~ 0
+Team 21
+Text Notes 8150 7650 0    50   ~ 0
+September 2019
+Text Notes 10600 7650 0    50   ~ 0
+-
+$EndSCHEMATC
