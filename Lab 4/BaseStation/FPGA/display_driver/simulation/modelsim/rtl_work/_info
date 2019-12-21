@@ -1,0 +1,94 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Vlad Mihai/Desktop/ECE3400/display_driver/simulation/modelsim
+vdisplay_driver
+Z1 !s110 1575438297
+!i10b 1
+!s100 `f5jH[]37gZnOb@H6`1Ug1
+I^V=c:7zdi<8n?hkNNOzNC2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1575437980
+8C:/Users/Vlad Mihai/Desktop/ECE3400/display_driver/display_driver.v
+FC:/Users/Vlad Mihai/Desktop/ECE3400/display_driver/display_driver.v
+L0 6
+Z3 OV;L;10.4b;61
+r1
+!s85 0
+31
+Z4 !s108 1575438297.000000
+!s107 C:/Users/Vlad Mihai/Desktop/ECE3400/display_driver/display_driver.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Vlad Mihai/Desktop/ECE3400/display_driver|C:/Users/Vlad Mihai/Desktop/ECE3400/display_driver/display_driver.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+C:/Users/Vlad Mihai/Desktop/ECE3400/display_driver}
+vvga_driver
+R1
+!i10b 1
+!s100 E8_@F[1H9415ZYZ^LcEFZ2
+I[NofP@aF0^K^fH`5LB<QI2
+R2
+R0
+w1575437448
+8C:/Users/Vlad Mihai/Desktop/ECE3400/display_driver/vga_driver.v
+FC:/Users/Vlad Mihai/Desktop/ECE3400/display_driver/vga_driver.v
+L0 11
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Vlad Mihai/Desktop/ECE3400/display_driver/vga_driver.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Vlad Mihai/Desktop/ECE3400/display_driver|C:/Users/Vlad Mihai/Desktop/ECE3400/display_driver/vga_driver.v|
+!i113 1
+R5
+R6
+vvga_driver_pll
+R1
+!i10b 1
+!s100 U8=iY22_Sb4VKffhfE;E92
+ICXmCCZ2NjQUYPj:g_jlaR0
+R2
+R0
+w1575420984
+8C:/Users/Vlad Mihai/Desktop/ECE3400/display_driver/vga_driver_pll.v
+FC:/Users/Vlad Mihai/Desktop/ECE3400/display_driver/vga_driver_pll.v
+L0 40
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Vlad Mihai/Desktop/ECE3400/display_driver/vga_driver_pll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Vlad Mihai/Desktop/ECE3400/display_driver|C:/Users/Vlad Mihai/Desktop/ECE3400/display_driver/vga_driver_pll.v|
+!i113 1
+R5
+R6
+vvga_driver_pll_altpll
+R1
+!i10b 1
+!s100 celYaET8?J@_jG0hA[UXk3
+IID[kV^FKEkgYV=ecgF37W0
+R2
+R0
+w1575421094
+8C:/Users/Vlad Mihai/Desktop/ECE3400/display_driver/db/vga_driver_pll_altpll.v
+FC:/Users/Vlad Mihai/Desktop/ECE3400/display_driver/db/vga_driver_pll_altpll.v
+L0 30
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Vlad Mihai/Desktop/ECE3400/display_driver/db/vga_driver_pll_altpll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Vlad Mihai/Desktop/ECE3400/display_driver/db|C:/Users/Vlad Mihai/Desktop/ECE3400/display_driver/db/vga_driver_pll_altpll.v|
+!i113 1
+R5
+!s92 -vlog01compat -work work {+incdir+C:/Users/Vlad Mihai/Desktop/ECE3400/display_driver/db}

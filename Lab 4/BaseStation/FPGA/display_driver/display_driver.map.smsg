@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at synchronizer.v(25): always construct contains both blocking and non-blocking assignments File: C:/Users/Vlad Mihai/Desktop/ECE3400/ECE-3400-Team-21-Labs/Lab 4/BaseStation/FPGA/display_driver/synchronizer.v Line: 25

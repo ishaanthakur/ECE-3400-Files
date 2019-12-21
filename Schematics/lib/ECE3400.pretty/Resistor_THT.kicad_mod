@@ -1,6 +1,4 @@
-(module Resistor_THT (layer F.Cu) (tedit 5D854DED)
-  (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
-  (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
+(module Resistor_THT (layer F.Cu) (tedit 5DEAB47C)
   (fp_text reference REF** (at 5.08 -2.37) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

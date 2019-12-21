@@ -1,4 +1,4 @@
-16485641250890764
+16491948051328764
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -44590,12 +44590,33 @@ Mic_Electret_10mm
 2
 2
 ECE3400
+PhotoNPN
+
+
+0
+2
+2
+ECE3400
 PinHeader_1x3
 
 
 0
 3
 3
+ECE3400
+PinHeader_1x4
+
+
+0
+4
+4
+ECE3400
+PinHeader_2x3
+
+
+0
+6
+6
 ECE3400
 PinSocket_1x1
 
@@ -44612,8 +44633,8 @@ R_0805
 2
 ECE3400
 Resistor_THT
-Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
-Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm
+
+
 0
 2
 2
@@ -73450,6 +73471,13 @@ fuse-merge
 0
 4
 2
+cuauv
+gudetama_sticker
+
+
+0
+0
+0
 cuauv
 imperialcrest
 

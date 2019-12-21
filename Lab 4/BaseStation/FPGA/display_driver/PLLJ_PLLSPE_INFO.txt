@@ -1,0 +1,5 @@
+PLL_Name	vga_driver_pll:clk_gen|altpll:altpll_component|vga_driver_pll_altpll:auto_generated|pll1
+PLLJITTER	20
+PLLSPEmax	84
+PLLSPEmin	-53
+

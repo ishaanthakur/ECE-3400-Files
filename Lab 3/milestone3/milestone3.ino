@@ -334,7 +334,7 @@ void loop() {
 
   cleanNodes(); // remove temporary node information
   Serial.println();
-  
+  3
   if(!next_step) { // if robot is done...
     victoryDance(); // perform victory dance
     

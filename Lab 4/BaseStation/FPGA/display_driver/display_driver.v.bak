@@ -1,0 +1,68 @@
+//=======================================================
+//  Display Driver top level
+//  Team 253XY
+//=======================================================
+
+module display_driver(
+	//////////// CLOCK //////////
+	input 		          		CLOCK_50,
+
+	//////////// LED //////////
+	output		     [7:0]		LED,
+
+	//////////// KEY //////////
+	input 		     [1:0]		KEY,
+
+	//////////// 2x13 GPIO Header //////////
+	inout 		    [12:0]		GPIO_2,
+	input 		     [2:0]		GPIO_2_IN
+);
+
+//=======================================================
+//  REG/WIRE declarations
+//=======================================================
+
+wire reset;
+
+reg [31:0] counter;
+reg led_state;
+
+//=======================================================
+//  Structural coding
+//=======================================================
+
+vga_driver_pll vgaDriverPLL(
+  .inclk0(CLOCK_50),
+  .c0(vga_clock),
+);
+
+assign reset = !KEY[0];
+assign LED[0] = led_state;
+
+always @(posedge vga_clock)
+begin
+	if(reset == 1'b1)
+	begin
+		counter = 32'd0;
+		led_state = 1'b0;
+	end
+	else
+	begin
+		if(counter >= 32'd25000000)
+		begin
+			led_state = 1'b1;
+		end
+		else
+		begin
+			led_state = 1'b0;
+		end
+		
+		counter = counter + 32'd1;
+		if(counter == 32'd50000000)
+		begin
+			counter = 32'd0;
+		end
+	end
+end
+		
+endmodule
